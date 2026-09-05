@@ -222,6 +222,30 @@
 }
 </script>
 <style>
+  /* Custom Red Top Button */
+.custom-top-cta-wrapper {
+    text-align: center;
+    padding: 35px 20px 15px;
+}
+
+.btn-top-red {
+    display: inline-block;
+    background-color: #DC2626; /* Яркий конверсионный красный */
+    color: #FFFFFF !important;
+    font-size: 1.15rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 18px 36px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(220, 38, 38, 0.35);
+    transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-top-red:hover {
+    background-color: #B91C1C; /* Затемнение при наведении */
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(220, 38, 38, 0.45);
+}
 :root {
   --bg-main: #FAF7F2;
   --bg-card: #FFFFFF;
@@ -688,7 +712,12 @@ footer {
     </div>
   </div>
 </header>
-
+<!-- Top Red Category Button -->
+<div class="custom-top-cta-wrapper">
+    <a href="https://www.creativefabrica.com/search/ref/6895537/?query=amigurumi%20crochet%20pattern&amp;campaign=amigurumicrochetpattern" class="btn-top-red" rel="sponsored nofollow">
+        Click 10000 + free crochet pattern
+    </a>
+</div>
 <main class="grid-section">
   <div class="container">
     <div class="product-grid">
